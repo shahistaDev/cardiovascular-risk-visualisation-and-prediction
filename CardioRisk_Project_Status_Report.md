@@ -80,7 +80,7 @@ Cardiovascular disease (CAD) is the leading cause of death worldwide. Current st
 ## 4. Pending Tasks & Sprint Roadmap (What's Left To Be Done)
 
 - [ ] **Sprint 1 (Models & 3D Assets):**
-  - Shaista completes the model benchmark comparison table.
+  - [x] Shaista completed the 5-algorithm benchmark comparison table (CatBoost, XGBoost, LightGBM, ElasticNet, SVC), implemented CalibratedClassifierCV, handled LCX/RCA vessel imbalances, and bundled calibrated pipelines into cardio_models.joblib.
   - Anamta selects and tests the `.gltf` heart mesh.
 - [ ] **Sprint 2 (Integration & SHAP Refinement):**
   - Anushka updates `server.py` with calibrated models and detailed SHAP outputs.

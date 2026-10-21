@@ -1,10 +1,10 @@
 {
   "Patient 1 - Healthy / Low Risk": {
     "expected_output": {
-      "CAD": 0.09399999678134918,
-      "LAD": 0.10400000214576721,
-      "LCX": 0.09099999815225601,
-      "RCA": 0.20200000703334808
+      "CAD": 0.199,
+      "LAD": 0.282,
+      "LCX": 0.202,
+      "RCA": 0.315
     },
     "patient_data": {
       "Age": 66,
@@ -66,10 +66,10 @@
   },
   "Patient 2 - Single-Vessel (LAD) Stenosis": {
     "expected_output": {
-      "CAD": 0.9980000257492065,
-      "LAD": 0.9190000295639038,
-      "LCX": 0.10999999940395355,
-      "RCA": 0.06599999964237213
+      "CAD": 0.954,
+      "LAD": 0.872,
+      "LCX": 0.094,
+      "RCA": 0.207
     },
     "patient_data": {
       "Age": 55,
@@ -131,10 +131,10 @@
   },
   "Patient 3 - Severe Multi-Vessel CAD": {
     "expected_output": {
-      "CAD": 0.9819999933242798,
-      "LAD": 0.8579999804496765,
-      "LCX": 0.42100000381469727,
-      "RCA": 0.7699999809265137
+      "CAD": 0.919,
+      "LAD": 0.773,
+      "LCX": 0.695,
+      "RCA": 0.792
     },
     "patient_data": {
       "Age": 50,

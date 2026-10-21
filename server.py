@@ -44,7 +44,7 @@ def predict_patient(patient_data: dict):
         df_in = df_in[raw_feature_names]
 
         # Clean string values (title case and whitespace stripping) to match training categories
-        cat_cols = df_in.select_dtypes(include=['object']).columns
+        cat_cols = [c for c in df_in.columns if not pd.api.types.is_numeric_dtype(df_in[c])]
         for c in cat_cols:
             df_in[c] = df_in[c].astype(str).str.strip().str.title()
 
